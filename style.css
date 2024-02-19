@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*nav*/
+
+nav{
+    
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2 );
+}
+
+nav a{
+    align-items: center;
+    text-decoration: dotted;
+    color: white;
+    padding: 0 7.5rem;
+}
+
+nav a:active
+nav a[href="#target"]:target{
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*head*/
+
+.center-image{
+    width: 400;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+/*Family*/
+
+.container, .container3{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1800px;
+}
+
+.family-content, .career-content{
+    width: 60%;
+}
+
+.Family, .Career{
+    width: 40%;
+    text-align: center;
+}
+
+.Family img, .Career img{
+    padding: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.family-content h2, .career-content h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.family-content p, .career-content p {
+    font-family: 'Trebuchet MS';
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+/*Education */
+
+.container2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1800px;
+    flex-direction: row-reverse;
+}
+
+.Education{
+    width: 40%;
+    text-align: center;
+}
+
+.education-content{
+    width: 60%;
+}
+
+.Education img{
+    padding: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.education-content h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.education-content p{
+    font-family: 'Trebuchet MS';
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+/*PERSONAL LIFE*/
+
+.container4{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1800px;
+    flex-direction: row-reverse;
+}
+
+.Personal{
+    width: 60%;
+    text-align: center;
+}
+
+.personal-content{
+    width: 40%;
+}
+
+video{
+    padding: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.personal-content h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.personal-content p{
+    font-family: 'Trebuchet MS';
+    text-align: justify;
+    margin-bottom: 1rem;
+}
